@@ -11,6 +11,13 @@
 		CA260A82289EA578002BF709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A81289EA578002BF709 /* ContentView.swift */; };
 		CA260A84289EA579002BF709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA260A83289EA579002BF709 /* Assets.xcassets */; };
 		CA260A87289EA579002BF709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA260A86289EA579002BF709 /* Preview Assets.xcassets */; };
+		CA260A90289EA5C2002BF709 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A8F289EA5C2002BF709 /* Reminder.swift */; };
+		CA260A92289EA621002BF709 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A91289EA621002BF709 /* Reminders.swift */; };
+		CA260A94289EAAE3002BF709 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A93289EAAE3002BF709 /* AddView.swift */; };
+		CA260A96289EAC6F002BF709 /* StructVsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A95289EAC6F002BF709 /* StructVsClass.swift */; };
+		CA260A98289EB4B5002BF709 /* ToToListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A97289EB4B5002BF709 /* ToToListVM.swift */; };
+		CA260A9A289EB7B3002BF709 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A99289EB7B3002BF709 /* TodoListView.swift */; };
+		CA260A9C289EBB98002BF709 /* UpdateTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA260A9B289EBB98002BF709 /* UpdateTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		CA260A81289EA578002BF709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA260A83289EA579002BF709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA260A86289EA579002BF709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA260A8F289EA5C2002BF709 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		CA260A91289EA621002BF709 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		CA260A93289EAAE3002BF709 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		CA260A95289EAC6F002BF709 /* StructVsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVsClass.swift; sourceTree = "<group>"; };
+		CA260A97289EB4B5002BF709 /* ToToListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToToListVM.swift; sourceTree = "<group>"; };
+		CA260A99289EB7B3002BF709 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		CA260A9B289EBB98002BF709 /* UpdateTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				CA260A7F289EA578002BF709 /* ReminderListApp.swift */,
 				CA260A81289EA578002BF709 /* ContentView.swift */,
+				CA260A93289EAAE3002BF709 /* AddView.swift */,
+				CA260A97289EB4B5002BF709 /* ToToListVM.swift */,
+				CA260A99289EB7B3002BF709 /* TodoListView.swift */,
+				CA260A9B289EBB98002BF709 /* UpdateTodoView.swift */,
+				CA260A95289EAC6F002BF709 /* StructVsClass.swift */,
+				CA260A91289EA621002BF709 /* Reminders.swift */,
+				CA260A8F289EA5C2002BF709 /* Reminder.swift */,
 				CA260A83289EA579002BF709 /* Assets.xcassets */,
 				CA260A85289EA579002BF709 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA260A90289EA5C2002BF709 /* Reminder.swift in Sources */,
+				CA260A98289EB4B5002BF709 /* ToToListVM.swift in Sources */,
+				CA260A9A289EB7B3002BF709 /* TodoListView.swift in Sources */,
 				CA260A82289EA578002BF709 /* ContentView.swift in Sources */,
+				CA260A94289EAAE3002BF709 /* AddView.swift in Sources */,
+				CA260A9C289EBB98002BF709 /* UpdateTodoView.swift in Sources */,
 				CA260A80289EA578002BF709 /* ReminderListApp.swift in Sources */,
+				CA260A96289EAC6F002BF709 /* StructVsClass.swift in Sources */,
+				CA260A92289EA621002BF709 /* Reminders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
